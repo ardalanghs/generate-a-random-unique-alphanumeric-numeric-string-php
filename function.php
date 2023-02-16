@@ -1,3 +1,5 @@
+<?php
+
 function crypto_rand_secure($min, $max)
 {
     $range = $max - $min;
@@ -38,3 +40,5 @@ function _random($length = 32)
     }
     return $token;
 }
+
+?>
